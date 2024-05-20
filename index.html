@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Admissão</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div >
+        <h1>Formulário de Admissão</h1>
+        <form 
+            action="https://formsubmit.co/dp@faama.edu.br" 
+            method="POST"
+            class="form">
+            <label for="name">Nome completo</label>
+            <input type="text" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <label for="phone">Telefone</label>
+            <input type="phone" name="phone" required>
+            <label for="cor">Cor</label>
+            <input type="cor" name="cor" required>
+            <label for="religiao">Religião</label>
+            <input type="religiao" name="religiao" required>
+            <label for="escolaridade">Escolaridade</label>
+            <input type="escolaridade" name="escolaridade" required>
+            <label for="vale">Vale transporte? "SIM ou NÂO"</label>
+            <input type="vale" name="vale" required>
+            <label for="banco">Banco/Agencia/Conta</label>
+            <input type="banco" name="banco" required>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </form>
+    </body>
+</html>
